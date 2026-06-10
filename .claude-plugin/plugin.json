@@ -1,0 +1,11 @@
+{
+  "name": "llm-cost-skills",
+  "description": "Free LLM cost / FinOps skills: estimate spend, tear down a usage CSV, find prompt-caching wins, audit context bloat, advise model downgrades, and spot Batch API savings.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Botzone",
+    "url": "https://cost.botzone.ai"
+  },
+  "homepage": "https://github.com/botzone-ai/llm-cost-skills",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "llm-cost-skills",
+  "description": "Free, open-source Claude Agent Skills for LLM cost and FinOps: estimate token spend, tear down a usage CSV, find prompt-caching wins, audit context bloat, advise model downgrades, and spot Batch API savings. The free, one-shot versions of what cost.botzone.ai does continuously.",
+  "owner": {
+    "name": "Botzone",
+    "url": "https://cost.botzone.ai"
+  },
+  "plugins": [
+    {
+      "name": "llm-cost-skills",
+      "description": "A bundle of LLM cost / FinOps skills. Each one analyses a single prompt, run, or usage export and surfaces a concrete dollar number: spend-teardown (parse a provider usage CSV into a ranked savings list), prompt-caching-advisor, context-bloat-auditor, model-downgrade-advisor, and batch-api-advisor. Install once to get all of them.",
+      "author": {
+        "name": "Botzone"
+      },
+      "category": "development",
+      "source": ".",
+      "homepage": "https://github.com/botzone-ai/llm-cost-skills",
+      "keywords": [
+        "llm",
+        "cost",
+        "finops",
+        "tokens",
+        "spend",
+        "pricing",
+        "anthropic",
+        "openai",
+        "gemini",
+        "prompt-caching",
+        "batch-api"
+      ]
+    }
+  ]
+}

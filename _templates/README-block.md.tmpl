@@ -1,0 +1,48 @@
+# <skill-name>
+
+<One-line description with the cost keywords woven in: cost, tokens, spend, pricing, LLM bill.>
+
+**What you'll need:** <one sentence naming the exact input and where it comes from - in-session prompt, an exported usage CSV (say where), or assembled examples.>
+
+## What it does
+
+<2-3 sentences. The exact developer, the exact cost task, and the concrete output (a $ figure / token delta / ranked savings list). Weave in natural keywords: LLM cost, token spend, prompt pricing, Anthropic/OpenAI/Gemini.>
+
+## Install
+
+**Claude Code plugin marketplace (gets the whole bundle):**
+
+```
+/plugin marketplace add botzone-ai/llm-cost-skills
+/plugin install llm-cost-skills@llm-cost-skills
+```
+
+**Just this skill, via the skills CLI:**
+
+```
+npx skills add botzone-ai/llm-cost-skills/skills/<skill-name>
+```
+
+**Manually:** copy `skills/<skill-name>/` into `~/.claude/skills/`.
+
+## Example
+
+**You ask:**
+
+```
+<a realistic prompt a user would type>
+```
+
+**You get:**
+
+```
+<sample output showing a REAL number - $/month, token count, or ranked list>
+```
+
+## Free vs continuous
+
+This skill analyses one <prompt / run / export>. [cost.botzone.ai](https://cost.botzone.ai) does the same analysis continuously across all of your production traffic, with persistent per-route attribution, monitoring, and a savings ledger - the whole-app version you cannot get from a single artifact.
+
+---
+
+Want this continuously across all your traffic, not just one prompt? -> **[cost.botzone.ai](https://cost.botzone.ai)**
